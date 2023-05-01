@@ -10,4 +10,4 @@
 3=bash ./notifcat.sh
 
 ![e](https://user-images.githubusercontent.com/79897762/235470245-91aa694a-f3f7-476c-8632-7609300bec75.png)
-![c](https://user-images.githubusercontent.com/79897762/235470369-aeba8ec4-399e-415f-98e0-44e8a0eda365.png)
+![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
