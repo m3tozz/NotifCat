@@ -47,8 +47,10 @@ if [[ $islem == 1 || $islem == 01 ]]; then
  |_| \_|\___/ \__|_|_|  \_____\__,_|\__|⠀⠀⠀⠀⠀                                       
 '
 
-cd theme/ && cp -r bluex fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
+cd theme/ && cp -r bluex silvetin silvetines galaxye softie fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
 
+	sleep 1
+	sleep 1
 clear	
 	echo -e '\033[31;40;1m
 \e[1;31m-\e[1;34mInstalled!\e[1;31m-⠀⠀⠀                                       
@@ -79,6 +81,10 @@ rm -r /home/$USER/.themes/linegreen
 rm -r /home/$USER/.themes/lineblue
 rm -r /home/$USER/.themes/linerine
 rm -r /home/$USER/.themes/bluewhites
+rm -r /home/$USER/.themes/galaxye
+rm -r /home/$USER/.themes/softie
+rm -r /home/$USER/.themes/silvetines
+rm -r /home/$USER/.themes/silvetin
 	sleep 1
 	sleep 1
 clear	
@@ -92,7 +98,4 @@ echo -e "\e[31m GoodBye."
 	exit 1
 else
 	echo -e '\033[36;40;1m Wrong transaction number!'	
-	sleep 1
-	clear 
-	banner
 fi
