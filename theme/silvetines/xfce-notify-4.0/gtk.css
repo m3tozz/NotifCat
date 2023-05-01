@@ -1,0 +1,28 @@
+#XfceNotifyWindow {
+    background-image: url('img/background.jpg');
+    border-radius: 6px;
+    border-width: 1px;
+    border-color : #ffffff;
+}
+
+#XfceNotifyWindow label,summary {
+    font-family: FreeMono ;
+    color: #000000;
+}
+#XfceNotifyWindow image {
+        color: #ffff00;
+}
+#XfceNotifyWindow progressbar progress {
+    min-height: 16px;
+    background-image: none;
+    background-color: shade(#000000, 1.2);
+}
+
+#XfceNotifyWindow button {
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    border-style: none;
+    box-shadow: none;
+    border: 1px solid #d8d7d8;
+    color: #000000;
+}
