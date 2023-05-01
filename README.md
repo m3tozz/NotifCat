@@ -1,3 +1,3 @@
 
-#NotifCat XFCE Notification Theme Pack
+#NotifCat XFCE Notification Theme Pack.
 
