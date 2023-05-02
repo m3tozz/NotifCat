@@ -47,7 +47,7 @@ if [[ $islem == 1 || $islem == 01 ]]; then
  |_| \_|\___/ \__|_|_|  \_____\__,_|\__|⠀⠀⠀⠀⠀                                       
 '
 
-cd theme/ && cp -r bluex silvetin silvetines galaxye softie fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
+cd theme/ && cp -r bluex metores aleyn forcepink silvetin silvetines galaxye softie fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
 
 	sleep 1
 	sleep 1
@@ -85,6 +85,9 @@ rm -r /home/$USER/.themes/galaxye
 rm -r /home/$USER/.themes/softie
 rm -r /home/$USER/.themes/silvetines
 rm -r /home/$USER/.themes/silvetin
+rm -r /home/$USER/.themes/metores
+rm -r /home/$USER/.themes/forcepink
+rm -r /home/$USER/.themes/aleyn
 	sleep 1
 	sleep 1
 clear	
