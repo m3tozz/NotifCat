@@ -13,4 +13,4 @@
 ![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
 
 
-→made by m3tozz<p align="right"><a href="https://www.buymeacoffee.com/m3tozz" target="_blank"><img src="https://github.com/E343IO/stuff/blob/main/default-orange.webp?raw=true" alt="Buy Me A Coffee" height="31" width="174"></a>
+→made by m3tozz <p align="left"><a href="https://www.buymeacoffee.com/m3tozz" target="_blank"><img src="https://github.com/E343IO/stuff/blob/main/default-orange.webp?raw=true" alt="Buy Me A Coffee" height="31" width="174"></a>
