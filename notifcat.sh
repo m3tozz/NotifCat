@@ -1,3 +1,4 @@
+# Made By M3TOZZ
 clear
 case $1 in
 
@@ -13,7 +14,7 @@ echo -e '\e[31m
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀          _   _       _   _  __  _____      _ 1.1 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀          _   _       _   _  __  _____      _ 1.2 
 ⣿⣿⣿⡇⠀⡾⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀         | \ | |     | | (_)/ _|/ ____|    | |  
 ⣿⣿⣿⣧⡀⠁⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀         |  \| | ___ | |_ _| |_| |     __ _| |_ 
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠉⢹⠉⠙⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀         | . ` |/ _ \| __| |  _| |    / _` | __|
@@ -29,7 +30,7 @@ echo -e '\e[31m
 echo -e '
 \e[1;34m[01]\e[0;32mInstall \e[1;35m[02]\e[0;32mRemove\e[1;34m \e[1;31m[x]\e[0;32mExit
 '
-        echo -ne "\e[1;33mmetozz\e[0;31m@\e[0;34mnotifcat\n\e[0;31m↳\e[1;36m " ; read islem
+        echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34mnotifcat\n\e[0;31m↳\e[1;36m " ; read islem
 }
 
 
@@ -47,7 +48,7 @@ if [[ $islem == 1 || $islem == 01 ]]; then
  |_| \_|\___/ \__|_|_|  \_____\__,_|\__|⠀⠀⠀⠀⠀                                       
 '
 
-cd theme/ && cp -r bluex metores aleyn forcepink silvetin silvetines galaxye softie fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
+cd theme/ && cp -r boardes dptzz firemeto hotvibet matrixz pinkmtz rocksur starless bluex metores aleyn forcepink silvetin silvetines galaxye softie fakeblack forcered greenland icemeto notifas linepink purpless linered linegold linegreen linerine bluewhites lineblue /home/$USER/.themes/
 
 	sleep 1
 	sleep 1
@@ -88,6 +89,14 @@ rm -r /home/$USER/.themes/silvetin
 rm -r /home/$USER/.themes/metores
 rm -r /home/$USER/.themes/forcepink
 rm -r /home/$USER/.themes/aleyn
+rm -r /home/$USER/.themes/boardes
+rm -r /home/$USER/.themes/dptzz
+rm -r /home/$USER/.themes/firemeto
+rm -r /home/$USER/.themes/hotvibet
+rm -r /home/$USER/.themes/matrixz
+rm -r /home/$USER/.themes/pinkmtz
+rm -r /home/$USER/.themes/rocksur
+rm -r /home/$USER/.themes/starless
 	sleep 1
 	sleep 1
 clear	
