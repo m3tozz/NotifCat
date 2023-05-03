@@ -13,4 +13,12 @@
 ![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
 
 
-→made by <a href="https://www.instagram.com/metozz.exe/" target="_blank"><font  color = “FFFFFF”>m3tozz</font></a>
+<div class="mtzz">
+<img src="https://raw.githubusercontent.com/E343IO/stuff/main/default-orange.webp" class="sola-kaydir">
+<p>
+
+→made by m3tozz
+
+</p>
+
+</div>
