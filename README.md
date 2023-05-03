@@ -13,4 +13,4 @@
 ![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
 
 
-→made by <a href="<a href="https://www.instagram.com/metozz.exe/" target="_blank">m3tozz</a>
+→made by <a href="https://www.instagram.com/metozz.exe/" target="_blank"><font  color = “FFFFFF”>m3tozz</font></a>
