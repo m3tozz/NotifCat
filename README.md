@@ -13,7 +13,7 @@ cd NotifCat
 ```bash
 bash ./notifcat.sh
 ```
-![B](https://user-images.githubusercontent.com/79897762/235956820-3e74f6d8-9099-4b4d-a745-d815a408bed3.png)
+![A](https://user-images.githubusercontent.com/79897762/235957131-c76ff81f-e654-472a-a7c9-a43f9353dd0a.png)
 ![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
 
 →made by m3tozz
