@@ -1,5 +1,5 @@
 # NotifCat XFCE Notification Theme Pack.
-<a href="https://www.pling.com/p/2030201/">Pling.com</a>  
+<a href="https://www.pling.com/p/2030201/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/p/2030201/">Buymeacoffe.com</a>|<a href="https://www.instagram.com/metozz.exe/">Instagram.com</a>
 
 ![n](https://user-images.githubusercontent.com/79897762/235468495-fda40073-cb0d-4f6c-95bc-b20921edfba0.png)
 
