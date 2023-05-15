@@ -13,7 +13,7 @@ cd NotifCat
 ```bash
 sudo bash ./notifcat.sh
 ```
-<p align="left"><img src="https://user-images.githubusercontent.com/79897762/235989595-3f791615-6882-4c24-ae52-e9da906d0a80.png"> <a href="https://www.pling.com/p/2030201/" target="_blank"> <align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="28%">
+<p align="left"><img src="https://user-images.githubusercontent.com/79897762/235989595-3f791615-6882-4c24-ae52-e9da906d0a80.png"> <a href="https://www.pling.com/p/2030201/" target="_blank"> <align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="26%">
   
 ![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
 
