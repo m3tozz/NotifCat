@@ -17,17 +17,17 @@ cd NotifCat
 sudo bash ./notifcat.sh
 ```
 --------------------------------------------------------------------------
-
-<p align="center"><img src="https://github.com/m3tozz/NotifCat/assets/79897762/cb9e9781-b11a-40ac-8f7d-d0d647755928">
-  
---------------------------------------------------------------------------
   
 <p align="center"><img src="https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png">
 
 --------------------------------------------------------------------------
   
-<a href="https://www.pling.com/p/2030201/" target="_blank"><p align="center"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
+<p align="center"><img src="https://github.com/m3tozz/NotifCat/assets/79897762/cb9e9781-b11a-40ac-8f7d-d0d647755928">
   
+--------------------------------------------------------------------------
+  
+<a href="https://www.pling.com/p/2030201/" target="_blank"><p align="center"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
+ 
 --------------------------------------------------------------------------
   
 Donate | Bağış Yap
