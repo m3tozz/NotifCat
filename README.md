@@ -16,6 +16,12 @@ cd NotifCat
 ```bash
 sudo bash ./notifcat.sh
 ```
+Install Terminal Icons (DroidSansMono-Icons)
+--
+
+```bash
+bash ./install-icons.sh
+```
 --------------------------------------------------------------------------
   
 <p align="center"><img src="https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png">
