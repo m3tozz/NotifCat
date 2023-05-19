@@ -18,14 +18,23 @@ sudo bash ./notifcat.sh
 ```
 --------------------------------------------------------------------------
 
-<p align="left"><img src="https://user-images.githubusercontent.com/79897762/235989595-3f791615-6882-4c24-ae52-e9da906d0a80.png"> <a href="https://www.pling.com/p/2030201/" target="_blank"> <align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
+<p align="center"><img src="https://github.com/m3tozz/NotifCat/assets/79897762/cb9e9781-b11a-40ac-8f7d-d0d647755928">
   
-![a](https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png)
+--------------------------------------------------------------------------
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png">
 
 --------------------------------------------------------------------------
+  
+<a href="https://www.pling.com/p/2030201/" target="_blank"> <align="center"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
+  
+--------------------------------------------------------------------------
+  
 Donate | Bağış Yap
  --
  <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffe</a>.
  
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
+
+  ![aaa](https://github.com/m3tozz/NotifCat/assets/79897762/cb9e9781-b11a-40ac-8f7d-d0d647755928)
