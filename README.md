@@ -36,5 +36,3 @@ Donate | Bağış Yap
  
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
-
-  ![aaa](https://github.com/m3tozz/NotifCat/assets/79897762/cb9e9781-b11a-40ac-8f7d-d0d647755928)
