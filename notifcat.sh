@@ -1,8 +1,6 @@
 # Made By M3TOZZ
 clear
-case $1 in
 
-esac
 [ $UID != 0 ] && { echo -e "\e[1;34m→\e[1;33mPlease run as '\e[1;31msudo bash ./notifcat.sh\e[1;33m'" ; exit 1 ; }
 banner(){
 echo -e '\e[31m
