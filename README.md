@@ -14,7 +14,7 @@ git clone https://github.com/m3tozz/NotifCat.git
 cd NotifCat 
 ```
 ```bash
-sudo bash ./notifcat.sh
+sudo bash ./notifcat.sh --help
 ```
 
 --------------------------------------------------------------------------
