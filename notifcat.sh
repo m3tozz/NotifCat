@@ -5,7 +5,7 @@
 # Thank You LastPwny<3
 
 # Define Constants.
-export APP="NotifiCat" 		# Project Name
+export APP="NotifCat" 		# Project Name
 export CWD="${PWD}"			# Current Work Directory
 export BASENAME="${0##*/}"	# Base Name of This Script
 
