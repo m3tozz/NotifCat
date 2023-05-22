@@ -20,7 +20,10 @@ help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
 \t${BASENAME} --install: it's install's the ${APP} Project on your distrubution.
 \t${BASENAME} --uninstall: it's uninstall's (removes all component of ${APP}) the ${APP} Project on your distrubution.
-\t${BASENAME} --shell: standart shell format for lazy uzers."
+\t${BASENAME} --shell: standart shell format for lazy uzers.
+\t${BASENAME} --help: show this page.
+"
+
 }
 
 notificat:install() {
@@ -69,6 +72,15 @@ notificat:uninstall() {
 	fi
 }
 
+help() {
+	echo -e "	 
+--install: it's install's the ${APP} Project on your distrubution.
+--uninstall: it's uninstall's (removes all component of ${APP}) the ${APP} Project on your distrubution.
+--shell: standart shell format for lazy uzers.
+--help: show this page."
+}
+
+
 shell(){
 	echo -e "\e[31m
 ⠀⠀⠀⢠⣾⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -80,11 +92,11 @@ shell(){
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀          _   _       _   _  __  _____      _ 1.2.1
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀          _   _       _   _  __  _____      _ 1.2.2
 ⣿⣿⣿⡇⠀⡾⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀         | \ | |     | | (_)/ _|/ ____|    | |  
 ⣿⣿⣿⣧⡀⠁⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀         |  \| | ___ | |_ _| |_| |     __ _| |_ 
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠉⢹⠉⠙⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀         | . \` |/ _ \| __| |  _| |    / _\` | __|
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⠀⣀⣼⣿⣿⣿⣿   ⠀⠀⠀⠀           | |\  | (_) | |_| | | | |___| (_| | |_ 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⠀⣀⣼⣿⣿⣿⣿   ⠀⠀⠀⠀          | |\  | (_) | |_| | | | |___| (_| | |_ 
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀         |_| \_|\___/ \__|_|_|  \_____\__,_|\__|
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀         XFCE Notification Theme Pack.
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠀⠤⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -92,7 +104,7 @@ shell(){
 ⣿⣿⠟⠁⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠈⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                                              
 \e[1;34m[01]\e[0;32mInstall \e[1;35m[02]\e[0;32mRemove\e[1;34m \e[1;31m[x]\e[0;32mExit"
-        echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34m${APPNAME}\n\e[0;31m↳\e[1;36m "
+        echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34m$notifcat\n\e[0;31m↳\e[1;36m "
 		read islem
 		case "${islem,,}" in
 			"install"|"setup"|"01"|"1")
