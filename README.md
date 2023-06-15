@@ -5,6 +5,12 @@
 
 --------------------------------------------------------------------------
 
+What is NotifCat?
+
+NotifCat it is a terminal application that installs its own xfce4-notify-4.0 themes to the system folder!
+
+--------------------------------------------------------------------------
+
 Installation
 --
 ```bash
