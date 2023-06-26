@@ -1,5 +1,5 @@
 # NotifCat XFCE Notification Theme Pack.
-<img src="https://img.shields.io/badge/Version-1.2.green.svg?" alt="r10" hspace="10"  align="right" />⮩<a href="https://www.pling.com/p/2034925/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffee.com</a>|<a href="https://www.instagram.com/metinzuhree/">Instagram.com</a>
+<img src="https://img.shields.io/badge/Version-1.2.2-green.svg?" alt="r10" hspace="10"  align="right" />⮩<a href="https://www.pling.com/p/2034925/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffee.com</a>|<a href="https://www.instagram.com/metinzuhree/">Instagram.com</a>
 
 ![n](https://user-images.githubusercontent.com/79897762/235468495-fda40073-cb0d-4f6c-95bc-b20921edfba0.png)
 
