@@ -28,7 +28,7 @@ sudo bash ./notifcat.sh --help
 
 --------------------------------------------------------------------------
  
-<a href="https://www.xfce-look.org/p/2030201" target="_blank"><p align="center"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
+<a href="https://www.pling.com/p/2030201/" target="_blank"><p align="center"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="33%">
  
 --------------------------------------------------------------------------
   
