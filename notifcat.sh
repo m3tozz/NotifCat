@@ -104,7 +104,7 @@ shell(){
 ⣿⣿⠟⠁⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠈⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                                              
 \e[1;34m[01]\e[0;32mInstall \e[1;35m[02]\e[0;32mRemove\e[1;34m \e[1;31m[x]\e[0;32mExit"
-        echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34m$notifcat\n\e[0;31m↳\e[1;36m "
+        echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34mnotifcat\n\e[0;31m↳\e[1;36m "
 		read islem
 		case "${islem,,}" in
 			"install"|"setup"|"01"|"1")
