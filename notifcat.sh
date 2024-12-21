@@ -18,8 +18,8 @@ fi
 # Functions.
 help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
-\t${BASENAME} --install: it's install's the ${APP} Project on your distrubution.
-\t${BASENAME} --uninstall: it's uninstall's (removes all component of ${APP}) the ${APP} Project on your distrubution.
+\t${BASENAME} --install: it's install's the ${APP} Themes on your XFCE.
+\t${BASENAME} --uninstall: it's uninstall's the ${APP} Themes on your XFCE.
 \t${BASENAME} --shell: standart shell format for lazy uzers.
 \t${BASENAME} --help: show this page.
 "
@@ -74,8 +74,8 @@ notificat:uninstall() {
 
 help() {
 	echo -e "	 
---install: it's install's the ${APP} Project on your distrubution.
---uninstall: it's uninstall's (removes all component of ${APP}) the ${APP} Project on your distrubution.
+--install: it's install's the ${APP} Themes on your XFCE.
+--uninstall: it's uninstall's the ${APP} Themes on your XFCE.
 --shell: standart shell format for lazy uzers.
 --help: show this page."
 }
