@@ -27,7 +27,7 @@ sudo bash ./notifcat.sh --help
 <p align="center"><img src="https://user-images.githubusercontent.com/79897762/235471983-c7ad69a0-576a-471e-95e7-034ac9336824.png">
 <details>
 <summary> Show NotifCat Themes </summary>
-  Starless
+  <p align="center">Starless</p>
   <p align="center"><img src="https://github.com/user-attachments/assets/7f10faaf-dafb-4177-ad5c-db5b3840d5e6"><br>
 IceMeto
   <p align="center"><img src="https://github.com/user-attachments/assets/0fbff538-e295-48d0-9933-be4f1b6762e4"><br>
