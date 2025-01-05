@@ -5,7 +5,7 @@
 
 --------------------------------------------------------------------------
 
-<img src="https://hits.sh/github.com/m3tozz/NotifCat.svg?color=007ec6" alt="r10" hspace="10"  align="right" /> What is NotifCat? <br>
+<img src="https://img.shields.io/badge/textzuhree-black?&logo=instagram&logoColor=purple" hspace="10"  align="right" /> What is NotifCat? <br>
 NotifCat it is a terminal application that installs its own xfce4-notify-4.0 themes to the system folder!
 
 --------------------------------------------------------------------------
