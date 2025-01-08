@@ -21,6 +21,7 @@ help() {
 \t${BASENAME} --install: it's install's the ${APP} Themes on your XFCE.
 \t${BASENAME} --uninstall: it's uninstall's the ${APP} Themes on your XFCE.
 \t${BASENAME} --shell: standart shell format for lazy uzers.
+\t${BASENAME} --about: about this project.
 \t${BASENAME} --help: show this page.
 "
 
@@ -72,11 +73,29 @@ notificat:uninstall() {
 	fi
 }
 
+notificat:about() {
+			echo -e '\e[31m
+     __      _   _  __   ___      _   
+  /\ \ \___ | |_(_)/ _| / __\__ _| |_ 
+ /  \/ / _ \| __| | |_ / /  / _` | __|
+/ /\  / (_) | |_| |  _/ /__| (_| | |_ 
+\_\ \/ \___/ \__|_|_| \____/\__,_|\__|
+ XFCE Notification Theme Pack!'
+    echo -e "\e[1;34m##########################################################\033[0m"
+    echo -e "    Create by           ":" M3TOZZ"
+    echo -e "    Github              ":" https://github.com/m3tozz"
+    echo -e "    Instagram           ":" @textzuhree"
+    echo -e "    Version             ":" NotifCat-1.2.2"
+    echo -e "\e[1;34m##########################################################\033[0m"
+	exit 1
+}
+
 help() {
 	echo -e "	 
 --install: it's install's the ${APP} Themes on your XFCE.
 --uninstall: it's uninstall's the ${APP} Themes on your XFCE.
 --shell: standart shell format for lazy uzers.
+--about: about this project.
 --help: show this page."
 }
 
@@ -103,7 +122,7 @@ shell(){
 ⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⠿⠋⢃⠈⠢⡁⠒⠄⡀⠈⠁⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⠟⠁⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠈⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                                              
-\e[1;34m[01]\e[0;32mInstall \e[1;35m[02]\e[0;32mRemove\e[1;34m \e[1;31m[x]\e[0;32mExit"
+\e[1;34m[01]\e[0;32mInstall \e[1;35m[02]\e[0;32mRemove\e[1;34m \e[1;31m[A]\e[0;32mAbout \e[1;31m[x]\e[0;32mExit"
         echo -ne "\e[1;33mm3tozz\e[0;31m@\e[0;34mnotifcat\n\e[0;31m↳\e[1;36m "
 		read islem
 		case "${islem,,}" in
@@ -112,6 +131,22 @@ shell(){
 			;;
 			"uninstall"|"remove"|"02"|"2")
 				notificat:uninstall
+			;;
+			"about"|"a")
+			echo -e '\e[31m
+     __      _   _  __   ___      _   
+  /\ \ \___ | |_(_)/ _| / __\__ _| |_ 
+ /  \/ / _ \| __| | |_ / /  / _` | __|
+/ /\  / (_) | |_| |  _/ /__| (_| | |_ 
+\_\ \/ \___/ \__|_|_| \____/\__,_|\__|
+ XFCE Notification Theme Pack!'
+    echo -e "\e[1;34m##########################################################\033[0m"
+    echo -e "    Create by           ":" M3TOZZ"
+    echo -e "    Github              ":" https://github.com/m3tozz"
+    echo -e "    Instagram           ":" @textzuhree"
+    echo -e "    Version             ":" NotifCat-1.2.2"
+    echo -e "\e[1;34m##########################################################\033[0m"
+	exit 1
 			;;
 			"exit"|"quit"|"x"|"q")
 				echo "GoodBye."
@@ -131,6 +166,9 @@ case "${1,,}" in
 	;;
 	"--uninstall"|"-u")
 		notificat:uninstall
+	;;
+	"--about"|"-a")
+	notificat:about
 	;;
 	"--shell"|"-s")
 		shell
