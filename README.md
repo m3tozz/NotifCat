@@ -1,7 +1,6 @@
-# NotifCat XFCE Notification Theme Pack.
-<img src="https://img.shields.io/badge/Version-1.2.2-black.svg?" alt="r10" hspace="10"  align="right" />⮩<a href="https://www.pling.com/p/2030201/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffee.com</a>|<a href="https://www.instagram.com/textzuhree/">Instagram.com</a>
+# <img src="https://github.com/user-attachments/assets/19777c26-b9d2-4258-bed2-9c8ac69db901" hspace="10" width="37"  align="left"/><p><center>NotifCat XFCE Notification Theme Pack</center>
 
-![n](https://user-images.githubusercontent.com/79897762/235468495-fda40073-cb0d-4f6c-95bc-b20921edfba0.png)
+<p align="center"><img src="https://github.com/user-attachments/assets/c1c6aaaa-6c17-4074-b6b3-571211cb19b5"></p>
 
 --------------------------------------------------------------------------
 
