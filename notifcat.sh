@@ -41,7 +41,7 @@ fi
 			echo "installing theme for \"${theme##*/}\".."
 			cp -r "${theme}" "/usr/share/themes/${theme##*/}"
 		done
-		echo -e "\033[31;40;1m\e[1;31m-\e[1;34mInstalled!\e[1;31m-"
+		echo -e "\033[31;40;1m\e[1;31m-\e[1;34mInstalled!\e[1;31m-\033[0m"
 		exit 0
 	else
 		echo "${BASENAME}: \"theme\" directory not found in current path!\033[0m"
@@ -68,7 +68,7 @@ fi
 			echo "removing theme for \"${theme##*/}\".."
 			rm -rf "/usr/share/themes/${theme##*/}"
 		done
-		echo -e "\033[31;40;1m\e[1;33mRemoved\e[31;40m!"
+		echo -e "\033[31;40;1m\e[1;33mRemoved\e[31;40m!\033[0m"
 		exit 0
 	else
 		echo "${BASENAME}: \"theme\" directory not found in current path!\033[0m"
