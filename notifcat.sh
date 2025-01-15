@@ -44,7 +44,7 @@ fi
 		echo -e "\033[31;40;1m\e[1;31m-\e[1;34mInstalled!\e[1;31m-"
 		exit 0
 	else
-		echo "${BASENAME}: \"theme\" directory not found in current path!"
+		echo "${BASENAME}: \"theme\" directory not found in current path!\033[0m"
 		exit 1
 	fi
 }
@@ -71,7 +71,7 @@ fi
 		echo -e "\033[31;40;1m\e[1;33mRemoved\e[31;40m!"
 		exit 0
 	else
-		echo "${BASENAME}: \"theme\" directory not found in current path!"
+		echo "${BASENAME}: \"theme\" directory not found in current path!\033[0m"
 		exit 1
 	fi
 }
