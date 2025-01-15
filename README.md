@@ -12,7 +12,7 @@ NotifCat it is a terminal application that installs its own xfce4-notify-4.0 the
 Install (Automatic)
 --
 ```bash
-git clone https://github.com/m3tozz/NotifCat.git && cd NotifCat && sudo bash ./notifcat.sh --install && cd..
+git clone https://github.com/m3tozz/NotifCat.git && cd NotifCat && sudo bash ./notifcat.sh --install && cd ..
 ```
 
 Install (Manual)
