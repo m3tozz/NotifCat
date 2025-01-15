@@ -104,6 +104,10 @@ help() {
 
 
 shell(){
+if [[ "${UID}" != 0 ]] ; then
+	echo -e "please run this script as with root privileges:\n\tsudo bash ./notifcat.sh --shell"
+	exit 1
+fi
 	echo -e "\e[31m
 ⠀⠀⠀⢠⣾⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⣰⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
