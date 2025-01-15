@@ -9,11 +9,6 @@ export APP="NotifCat" 		# Project Name
 export CWD="${PWD}"			# Current Work Directory
 export BASENAME="${0##*/}"	# Base Name of This Script
 
-# Check if root users.
-if [[ "${UID}" != 0 ]] ; then
-	echo -e "please run this script as with root privileges:\n\tsudo bash ./${BASENAME}"
-	exit 1
-fi
 
 # Functions.
 help() {
@@ -28,6 +23,10 @@ help() {
 }
 
 notificat:install() {
+if [[ "${UID}" != 0 ]] ; then
+	echo -e "please run this script as with root privileges:\n\tsudo bash ./notifcat.sh --install"
+	exit 1
+fi
 	local theme
 		echo -e "
   _   _       _   _  __  _____      _   
@@ -51,6 +50,10 @@ notificat:install() {
 }
 
 notificat:uninstall() {
+if [[ "${UID}" != 0 ]] ; then
+	echo -e "please run this script as with root privileges:\n\tsudo bash ./notifcat.sh --uninstall"
+	exit 1
+fi
 	local theme
 		echo -e "
   _   _       _   _  __  _____      _   
