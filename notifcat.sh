@@ -86,8 +86,8 @@ notificat:about() {
  XFCE Notification Theme Pack!'
     echo -e "\e[1;34m##########################################################\033[0m"
     echo -e "    Create by           ":" M3TOZZ"
-    echo -e "    Github              ":" https://github.com/m3tozz"
-    echo -e "    Instagram           ":" @textzuhree"
+    echo -e "    Github              ":" github.com/m3tozz/NotifCat"
+    echo -e "    Community Server    ":" discord.com/invite/sQwYCZer95"
     echo -e "    Version             ":" NotifCat-1.2.2"
     echo -e "\e[1;34m##########################################################\033[0m"
 	exit 1
